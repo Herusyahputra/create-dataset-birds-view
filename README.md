@@ -1,3 +1,1 @@
-## Readme
-
-This is repository for collect data birds view using multiple camera.
+### This is repository for demo birds view application

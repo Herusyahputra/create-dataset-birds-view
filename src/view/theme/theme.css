@@ -1,0 +1,156 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+QStackedWidget{
+    background-color: rgb(52, 56, 64);
+    color: rgb(220, 220, 220);
+    font: 10pt "Segoe UI";
+    border:none;
+}
+
+/*page_surrounding_view */
+#show_bird_views .QLabel{
+    color: rgb(240,240,240);
+}
+
+#image_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_bird_view */
+#frame_configuration_bird .QLabel{
+   background-color: #373A40;
+   color: rgb(240,240,240);
+}
+
+#frame_calibration_bird .QLabel{
+   color: rgb(240,240,240);
+}
+
+#select_point_bird .QLabel{
+   background-color: #373A40;
+   color: rgb(240,240,240);
+}
+
+#btn_home{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_original_view{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_front_original{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_side_left_right{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_wide_view_front{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_wide_view_rear{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_wide_view_left{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_wide_view_right{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_front_bird_view{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_rear_bird_view{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_left_right_bird_view{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_full_original{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_rear_original{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_front_original{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_left_right_original{
+    background-color: rgb(25, 70, 102);
+}
+
+#btn_setting{
+    background-color: rgb(25, 70, 102);
+}
+
+/*page_calibration_surrounding_view */
+#frame_configuration_surrounding_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_calib_surrounding_view.QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_surrounding_view */
+#frame_configuration_wide {
+    color: rgb(240,240,240);
+}
+
+#frame_calibration_wide_view .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_configuration_wide .QLabel{
+    color: rgb(240,240,240);
+}
+
+/*page_calibration_surrounding_view */
+#frame_configuration_side .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_calibration_side .QLabel{
+    color: rgb(240,240,240);
+}
+
+#frame_configuration .QLabel{
+    color: rgb(240,240,240);
+}
+
+#btn_calib_bird_view{
+    background-color: #194666;
+    color: #FFFFFF;
+}
+
+#btn_calib_surrounding_view{
+    background-color: #194666;
+    color: #FFFFFF;
+}
+
+#btn_calibration_wide_view{
+    background-color: #194666;
+    color: #FFFFFF;
+}
+
+#btn_calibration_side_view{
+    background-color: #194666;
+    color: #FFFFFF;
+}
+
+
+#frame_button{
+    background-color: rgb(52, 56, 64);
+    border:none;
+}

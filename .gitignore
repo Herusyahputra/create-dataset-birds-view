@@ -1,0 +1,4 @@
+.idea/
+__pycache__/
+data_config/maps/*
+data_video/

@@ -1,0 +1,268 @@
+Image_1:
+  bird_view:
+    crop_bottom: 966
+    crop_left: 0
+    crop_right: 0
+    crop_top: 0
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_anypoint_image_0.npy
+    map_y_anypoint: ../data_config/maps/map_y_anypoint_image_0.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 7.0
+    src:
+      - - 815
+        - 1376
+      - - 1811
+        - 1353
+      - - 1877
+        - 1563
+      - - 744
+        - 1590
+    dst:
+      - - 500
+        - 500
+      - - 2000
+        - 500
+      - - 2000
+        - 800
+      - - 500
+        - 800
+  camera_parameter: ../data_config/parameters/20220706_entaniya_vr220_1_2592x1944_moil230_andy.json
+  camera_source: http://10.42.0.170:8000/stream.mjpg
+  side_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 810
+    crop_top: 0
+    icx: -49
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_side_anypoint_image_0.npy
+    map_y_anypoint: ../data_config/maps/map_y_side_anypoint_image_0.npy
+    rotate: 0.0
+    side_x_anypoint: ../data_config/maps/map_x_side_anypoint_image_0.npy
+    side_y_anypoint: ../data_config/maps/map_y_side_anypoint_image_0.npy
+    zoom: 7.0
+  surrounding_view:
+    alpha_max: 100
+    crop_bottom: 0.6000000000000001
+    crop_left: 0.0
+    crop_right: 1.0
+    crop_top: 0.0
+    iC_alpha_degree: 10
+    iC_beta_degree: 0
+    map_x_panorama_rotation: ../data_config/maps/map_x_panorama_rotation_0.npy
+    map_y_panorama_rotation: ../data_config/maps/map_y_panorama_rotation_0.npy
+    p_alpha_end: 1
+    p_alpha_from: 0.4
+  wide_view:
+    icx: -37
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_wide_anypoint_image_0.npy
+    map_y_anypoint: ../data_config/maps/map_y_wide_anypoint_image_0.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 1.9999999999999998
+Image_2:
+  bird_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 810
+    crop_top: 0
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_anypoint_image_1.npy
+    map_y_anypoint: ../data_config/maps/map_y_anypoint_image_1.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 7.0
+    src:
+      - - 1448
+        - 663
+      - - 1650
+        - 530
+      - - 1525
+        - 2225
+      - - 1360
+        - 2076
+    dst:
+      - - 600
+        - 300
+      - - 945
+        - 300
+      - - 945
+        - 2549
+      - - 600
+        - 2549
+  camera_parameter: ../data_config/parameters/20220706_entaniya_vr220_1_2592x1944_moil230_andy.json
+  camera_source: http://10.42.0.170:8000/stream.mjpg
+  side_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 810
+    crop_top: 0
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_side_anypoint_image_1.npy
+    map_y_anypoint: ../data_config/maps/map_y_side_anypoint_image_1.npy
+    rotate: 0.0
+    zoom: 7.0
+  surrounding_view:
+    alpha_max: 100
+    crop_bottom: 0.6000000000000001
+    crop_left: 0.0
+    crop_right: 1.0
+    crop_top: 0.0
+    iC_alpha_degree: 10
+    iC_beta_degree: 0
+    map_x_panorama_rotation: ../data_config/maps/map_x_panorama_rotation_1.npy
+    map_y_panorama_rotation: ../data_config/maps/map_y_panorama_rotation_1.npy
+    p_alpha_end: 1
+    p_alpha_from: 0.4
+  wide_view:
+    icx: -67
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_wide_anypoint_image_1.npy
+    map_y_anypoint: ../data_config/maps/map_y_wide_anypoint_image_1.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 1.0
+Image_3:
+  bird_view:
+    crop_bottom: 0
+    crop_left: 1
+    crop_right: 0
+    crop_top: 0
+    icx: -60
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_anypoint_image_2.npy
+    map_y_anypoint: ../data_config/maps/map_y_anypoint_image_2.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 7.0
+    src:
+      - - 246
+        - 671
+      - - 448
+        - 698
+      - - 517
+        - 2272
+      - - 286
+        - 2346
+    dst:
+      - - 168
+        - 300
+      - - 500
+        - 300
+      - - 500
+        - 2549
+      - - 177
+        - 2549
+  camera_parameter: ../data_config/parameters/20220706_entaniya_vr220_1_2592x1944_moil230_andy.json
+  camera_source: http://10.42.0.170:8000/stream.mjpg
+  side_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 0
+    crop_top: 58
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_side_anypoint_image_2.npy
+    map_y_anypoint: ../data_config/maps/map_y_side_anypoint_image_2.npy
+    rotate: 0.0
+    zoom: 7.0
+  surrounding_view:
+    alpha_max: 100
+    crop_bottom: 0.6000000000000001
+    crop_left: 0.0
+    crop_right: 1.0
+    crop_top: 0.0
+    iC_alpha_degree: 10
+    iC_beta_degree: 0
+    map_x_panorama_rotation: ../data_config/maps/map_x_panorama_rotation_2.npy
+    map_y_panorama_rotation: ../data_config/maps/map_y_panorama_rotation_2.npy
+    p_alpha_end: 1
+    p_alpha_from: 0.4
+  wide_view:
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_wide_anypoint_image_2.npy
+    map_y_anypoint: ../data_config/maps/map_y_wide_anypoint_image_2.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 7.0
+Image_4:
+  bird_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 0
+    crop_top: 10
+    icx: -40
+    icy: 5
+    map_x_anypoint: ../data_config/maps/map_x_anypoint_image_3.npy
+    map_y_anypoint: ../data_config/maps/map_y_anypoint_image_3.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 10.0
+    src:
+      - - 840
+        - 359
+      - - 1758
+        - 371
+      - - 1590
+        - 529
+      - - 971
+        - 477
+    dst:
+      - - 500
+        - 200
+      - - 2000
+        - 200
+      - - 2000
+        - 500
+      - - 500
+        - 500
+  camera_parameter: ../data_config/parameters/20220706_entaniya_vr220_1_2592x1944_moil230_andy.json
+  camera_source: http://10.42.0.170:8000/stream.mjpg
+  side_view:
+    crop_bottom: 0
+    crop_left: 0
+    crop_right: 810
+    crop_top: 0
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_side_anypoint_image_3.npy
+    map_y_anypoint: ../data_config/maps/map_y_side_anypoint_image_3.npy
+    rotate: 0.0
+    zoom: 7.0
+  surrounding_view:
+    alpha_max: 100
+    crop_bottom: 0.6000000000000001
+    crop_left: 0.0
+    crop_right: 1.0
+    crop_top: 0.0
+    iC_alpha_degree: 10
+    iC_beta_degree: 0
+    map_x_panorama_rotation: ../data_config/maps/map_x_panorama_rotation_3.npy
+    map_y_panorama_rotation: ../data_config/maps/map_y_panorama_rotation_3.npy
+    p_alpha_end: 1
+    p_alpha_from: 0.4
+  wide_view:
+    icx: -50
+    icy: 0
+    map_x_anypoint: ../data_config/maps/map_x_wide_anypoint_image_3.npy
+    map_y_anypoint: ../data_config/maps/map_y_wide_anypoint_image_3.npy
+    rotate: 0.0
+    shift_x: 0
+    shift_y: 0
+    zoom: 7.0
+camera_placement: center
+camera_used: 4
