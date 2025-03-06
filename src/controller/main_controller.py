@@ -29,7 +29,7 @@ class MainController:
         self.maps = [[None, None]] * 4
 
         self.mode = "original"
-        self.current_image_calib = 0  # this is for specify which camera will calibration (single camera)
+        self.current_image_calib = 0  # this is used to specify which camera will be calibrated (single camera)
 
     def run_video(self):
         keys = list(self.model.properties_image)
