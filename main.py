@@ -94,12 +94,12 @@ class Display2D(object):
         self.screen.blit(img1, (5, 5))
         pygame.display.flip()
 
-
+# 233, 14
 view = Display2D()
-cap = cv2.VideoCapture("http://10.42.0.212:8000/stream.mjpg")
-cap_2 = cv2.VideoCapture("http://10.42.0.170:8000/stream.mjpg")
-cap_3 = cv2.VideoCapture("http://10.42.0.183:8000/stream.mjpg")
-cap_4 = cv2.VideoCapture("http://10.42.0.251:8000/stream.mjpg")
+cap = cv2.VideoCapture("http://10.42.0.14:5000/")
+cap_2 = cv2.VideoCapture("http://10.42.0.45:5000/")
+cap_3 = cv2.VideoCapture("http://10.42.0.233:5000/")
+# cap_4 = cv2.VideoCapture("http://10.42.0.233:8000/stream.mjpg")
 ret, image = cap.read()
 h, w, z = image.shape
 
@@ -109,23 +109,23 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out.append(cv2.VideoWriter("output_image_1_4.avi", fourcc, 10, (w, h)))
 out.append(cv2.VideoWriter('output_image_2_4.avi', fourcc, 10, (w, h)))
 out.append(cv2.VideoWriter('output_image_3_4.avi', fourcc, 10, (w, h)))
-out.append(cv2.VideoWriter('output_image_4_4.avi', fourcc, 10, (w, h)))
+# out.append(cv2.VideoWriter('output_image_4_4.avi', fourcc, 10, (w, h)))
 
 while cap.isOpened():
     success, frame = cap.read()
     _, frame2 = cap_2.read()
     _, frame3 = cap_3.read()
-    _, frame4 = cap_4.read()
+    # _, frame4 = cap_4.read()
     if success:
         cv2.imwrite("images/right_true_park5.jpg", frame)
         cv2.imwrite("images/left_true_park5.jpg", frame2)
         cv2.imwrite("images/front_true_park5.jpg", frame3)
-        cv2.imwrite("images/back_true_park5.jpg", frame4)
+        # cv2.imwrite("images/back_true_park5.jpg", frame4)
 
         if record:
             out[0].write(frame)
             out[1].write(frame2)
             out[2].write(frame3)
-            out[3].write(frame4)
+            # out[3].write(frame4)
 
-        view.showImage(image_1=frame, image_2=frame2, image_3=frame3, image_4=frame4, ratio=0.25)
+        view.showImage(image_1=frame, image_2=frame2, image_3=frame3, ratio=0.25)
